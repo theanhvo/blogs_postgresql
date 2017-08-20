@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS blogs;
+CREATE TABLE blogs (
+  id SERIAL  primary key,
+  title CHAR(58) NOT NULL,
+  content TEXT NOT NULL
+);
